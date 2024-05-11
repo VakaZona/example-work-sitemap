@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "da9b7a1dc1dd923105198c572cc7df8d",
+    "content-hash": "37d0d38945691ad7bec61292c8c405cb",
     "packages": [
         {
             "name": "brick/math",
@@ -5475,6 +5475,94 @@
                 "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/v2.2.7"
             },
             "time": "2023-12-08T13:03:43+00:00"
+        },
+        {
+            "name": "vakazona/dto",
+            "version": "v1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/VakaZona/DTO.git",
+                "reference": "383ea1e4e909e87d5c1810ef2611d04acd7858ec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/VakaZona/DTO/zipball/383ea1e4e909e87d5c1810ef2611d04acd7858ec",
+                "reference": "383ea1e4e909e87d5c1810ef2611d04acd7858ec",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.10",
+                "phpunit/phpunit": "^9.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "vakazona\\Dto\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Valery Zonov",
+                    "email": "valery.zonov@sibers.com"
+                }
+            ],
+            "description": "A Data Transfer Object for PHP",
+            "support": {
+                "issues": "https://github.com/VakaZona/DTO/issues",
+                "source": "https://github.com/VakaZona/DTO/tree/v1.4"
+            },
+            "time": "2023-10-09T10:26:35+00:00"
+        },
+        {
+            "name": "vakazona/library-sitemap-generator",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/VakaZona/library-sitemap-generator.git",
+                "reference": "9439e577f2300dfa9fb7972739ef445e501f42c1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/VakaZona/library-sitemap-generator/zipball/9439e577f2300dfa9fb7972739ef445e501f42c1",
+                "reference": "9439e577f2300dfa9fb7972739ef445e501f42c1",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2",
+                "vakazona/dto": "^1.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.56"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "vakazona\\SitemapGenerator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Valery Zonov",
+                    "email": "zonovvaleraooo@gmail.com"
+                }
+            ],
+            "description": "Library for generate sitemap files 'xml, csv, json'",
+            "support": {
+                "issues": "https://github.com/VakaZona/library-sitemap-generator/issues",
+                "source": "https://github.com/VakaZona/library-sitemap-generator/tree/v1.0.1"
+            },
+            "time": "2024-05-11T16:40:52+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
