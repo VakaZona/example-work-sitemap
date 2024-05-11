@@ -5522,16 +5522,16 @@
         },
         {
             "name": "vakazona/library-sitemap-generator",
-            "version": "v1.0.1",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/VakaZona/library-sitemap-generator.git",
-                "reference": "9439e577f2300dfa9fb7972739ef445e501f42c1"
+                "reference": "d01bf36e07a94fd34dbd429cbeddf8fcd6292c34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VakaZona/library-sitemap-generator/zipball/9439e577f2300dfa9fb7972739ef445e501f42c1",
-                "reference": "9439e577f2300dfa9fb7972739ef445e501f42c1",
+                "url": "https://api.github.com/repos/VakaZona/library-sitemap-generator/zipball/d01bf36e07a94fd34dbd429cbeddf8fcd6292c34",
+                "reference": "d01bf36e07a94fd34dbd429cbeddf8fcd6292c34",
                 "shasum": ""
             },
             "require": {
@@ -5560,9 +5560,9 @@
             "description": "Library for generate sitemap files 'xml, csv, json'",
             "support": {
                 "issues": "https://github.com/VakaZona/library-sitemap-generator/issues",
-                "source": "https://github.com/VakaZona/library-sitemap-generator/tree/v1.0.1"
+                "source": "https://github.com/VakaZona/library-sitemap-generator/tree/v1.0.3"
             },
-            "time": "2024-05-11T16:40:52+00:00"
+            "time": "2024-05-11T17:01:55+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
